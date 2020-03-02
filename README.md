@@ -318,14 +318,14 @@ mPerson.call()
 console.log(mPerson)
 ```
 - Classes also supports inheritance, which means you have another class which you inherit from taking all its properties and methods and potentially adding new properties and menthods.
+```ruby
+class Person extends BaseClass
+```
 - In JavaScript, the thing called this is the object that "owns" the code.
 - The value of this, when used in an object, is the object itself.
 - In a constructor function this does not have a value. It is a substitute for the new object. 
 - The value of this will become the new object when a new object is created.
 - Note that this is not a variable. It is a keyword. You cannot change the value of this.
-```ruby
-class Person extends BaseClass
-```
 ```ruby
 class Human{
    constructor(){
