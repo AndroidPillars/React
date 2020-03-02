@@ -405,6 +405,48 @@ person.myName();
 person.printGender();
 ```
 
+# The Spread and Rest Operator
+
+- ... only three dots
+- Spread -> Used to split up array elements OR object properties.
+```ruby
+const newArray = [...oldArray, 1, 2]
+const newObject = {...oldObject, newProp: 5}
+```
+- Rest -> Used to merge a list of functions arguements in to an array
+```ruby
+function sortArgs(...args){
+  return args.sort()
+}
+```
+```ruby
+const numbers = [1,2,3];
+const newNumbers = [...numbers, 4];
+
+console.log(newNumbers);
+```
+```ruby
+const person = {
+  name: 'Android'
+};
+
+const newPerson = {
+  ...person,
+  age: 10
+}
+
+console.log(newPerson)
+```
+```ruby
+const filter = (...args) => {
+  return args.filter(el => el === 1);
+}
+
+
+console.log(filter(1,2,3))
+```
+
+
 # Tools References
 
 - https://jsbin.com/?html,output
