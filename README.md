@@ -298,4 +298,7 @@ export const clean=()=>{...}
 export const baseDate = 10;
 ```
 
+# Tools References
+
+- https://jsbin.com/?html,output
 
