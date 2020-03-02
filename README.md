@@ -445,7 +445,50 @@ const filter = (...args) => {
 
 console.log(filter(1,2,3))
 ```
+# Reference and Primitive Type Refresher
 
+```ruby
+const number = 1;
+const number2 = number;
+
+console.log(number)
+```
+- The number2 has been copied from number
+- So numbers, Strings, booleans, these are called primitive types because whenever you reassign or you store a variable in other variable. It will copy the value, objects and arrays are reference types.
+```ruby
+const person = {
+  name: 'Android'
+}
+
+const secondPerson = person;
+console.log(secondPerson)
+```
+```ruby
+const person = {
+  name: 'Android'
+};
+
+const secondPerson = {
+  ...person
+};
+
+person.name = 'Flutter'
+
+console.log(secondPerson)
+```
+
+# Refreshing Array Functions
+
+```ruby
+const numbers = [1, 2, 3];
+
+const doubleNumArray = numbers.map((num) => {
+  return num * 2;
+});
+
+console.log(numbers);
+console.log(doubleNumArray);
+```
 
 # Tools References
 
