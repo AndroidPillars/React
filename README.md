@@ -86,5 +86,5 @@ ReactDOM.render(
 document.querySelector('#p1'));
 ```
 
-- where, ReactDOM.render(); -> This method allows us to render a JavaScript function as a component to the real DOM and that treat it as a component part is exactly what React cares about.
+- where, ReactDOM.render() -> This method allows us to render a JavaScript function as a component to the real DOM and that treat it as a component part is exactly what React cares about.
 
