@@ -298,6 +298,63 @@ export const clean=()=>{...}
 export const baseDate = 10;
 ```
 
+# Classes
+
+- Classes are essentially blueprints for Objects.
+- A class is created using class keyword and class can have both properties and methods.
+- Methods are simply function attached to the classes where properties are variables attached to the classes.
+```ruby
+class Person{
+  myName = 'Android'
+  call = () => {...}
+}
+```
+- In some cases, we need a "blueprint" for creating many objects of the same "type".
+- The way to create an "object type", is to use an object constructor function.
+- Objects of the same type are created by calling the constructor function with the new keyword.
+```ruby
+const mPerson = new Person()
+mPerson.call()
+console.log(mPerson)
+```
+- Classes also supports inheritance, which means you have another class which you inherit from taking all its properties and methods and potentially adding new properties and menthods.
+- In JavaScript, the thing called this is the object that "owns" the code.
+- The value of this, when used in an object, is the object itself.
+- In a constructor function this does not have a value. It is a substitute for the new object. 
+- The value of this will become the new object when a new object is created.
+- Note that this is not a variable. It is a keyword. You cannot change the value of this.
+```ruby
+class Person extends BaseClass
+```
+```ruby
+class Human{
+   constructor(){
+    this.gender = 'Machine';
+  }
+  
+  printGender(){
+    console.log(this.gender);
+  }
+}
+
+class Person extends Human{
+  
+  constructor(){
+    super();
+    this.name= 'Android';
+    this.gender = 'Male';
+  }
+  
+  myName(){
+    console.log(this.name);
+  }
+}
+
+const person = new Person();
+person.myName();
+person.printGender();
+```
+
 # Tools References
 
 - https://jsbin.com/?html,output
