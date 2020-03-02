@@ -188,3 +188,114 @@ document.querySelector('#p1'));
 
 - where, ReactDOM.render() -> This method allows us to render a JavaScript function as a component to the real DOM and that treat it as a component part is exactly what React cares about.
 
+# Next Generation JavaScript
+
+# let and const
+
+- Before ES6 the only variable used in JavaScript is var.
+```ruby
+var myName = 'Android';
+console.log(myName);
+
+myName = 'iOS';
+console.log(myName);
+```
+- In ES6 the introduced, let and const are different ways of creating variables.
+- let -> variables values.
+```ruby
+let myName = 'Android';
+console.log(myName);
+
+myName = 'iOS';
+console.log(myName);
+```
+- const -> constant values.
+```ruby
+let myName = 'Android';
+console.log(myName);
+```
+
+# Arrow Functions
+
+```ruby
+function myName(name){
+  console.log(name);
+}
+
+myName('Android');
+```
+```ruby
+const myName = (name) => {
+  console.log(name);
+}
+
+myName('Android');
+```
+
+```ruby
+const myName = name => {
+  console.log(name);
+}
+
+myName('Android');
+```
+```ruby
+const myName = () =>{
+  console.log();
+}
+
+myName();
+```
+```ruby
+const myName = (name, language) => {
+  console.log(name, language);
+}
+
+myName('Android','Flutter');
+```
+```ruby
+const multiply = (number) => {
+ return  number*2;
+}
+
+console.log(multiply(2));
+```
+```ruby
+const multiply = (number) => number*2;
+
+console.log(multiply(10));
+```
+
+# Exports and Imports(Modules)
+
+- In JavaScript files we can import statement from another file so that the JavaScript files themselves know their dependencies.
+- The default keyword uses when import some thing from that file it will always be our default export.
+- In app.js
+
+- default export
+```ruby
+import person from './person.js'
+import prs from './person.js'
+```
+
+- Named Export
+```ruby
+import {smth} from './utility.js'
+import {smth as Smth} from './utility.js'
+import * as bundled from './utility.js'
+```
+where person.js,
+```ruby
+const person= {
+  name:'Android'
+}
+
+export default person
+```
+where utility.js,
+```ruby
+export const clean=()=>{...}
+export const baseDate = 10;
+```
+
+
