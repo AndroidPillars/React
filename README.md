@@ -354,6 +354,56 @@ const person = new Person();
 person.myName();
 person.printGender();
 ```
+# Classes, Properties and Methods
+
+- Properties are like "variables attached to classes/ objects"
+
+In ES6,
+```ruby
+constructor(){
+    this.myProperty = 'value';
+  }
+```
+In ES7,
+```ruby
+myProperty = 'value';
+```
+- You can assign a property directly inside your class with myProperty equals value.
+
+- Methods are like 'functions attached to classes/objects
+
+In ES6,
+```ruby
+myMethod(){...}
+```
+In ES7,
+```ruby
+myMethod = () => {...}
+```
+```ruby
+class Human{
+  
+  gender = 'Machine';
+  
+  printGender = () => {
+    console.log(this.gender);
+  }
+}
+
+class Person extends Human{
+  
+    this.name= 'Android';
+    this.gender = 'Male';
+  
+  myName = () => {
+    console.log(this.name);
+  }
+}
+
+const person = new Person();
+person.myName();
+person.printGender();
+```
 
 # Tools References
 
