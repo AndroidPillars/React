@@ -103,7 +103,7 @@ MPAs allow you to create new content and place it on new pages. Multi-page apps 
 
 MPAs can provide lots of analytics with valuable information on how a website is performing: which features are working and which aren’t. With a single-page app, the only useful information you can collect is who visitors are and for how long they stay on the site.
 
-# 1.3.5. Cons of the multiple-page application
+# 1.3.5. Cons of the Multiple-Page application
 
 - Slow speed and performance
 
