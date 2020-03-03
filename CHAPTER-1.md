@@ -1,4 +1,4 @@
-# React
+# 1.0.React
 
 - React is a JavaScript Library for building User Interfaces.
 - It is about building JavaScript-driven apps.
@@ -8,7 +8,7 @@
 - We don't have to wait for a server response to get a new page or to render something new.
 - User Interfaces are bascially what the user sees and React is all about using components for building these.
 
-# Why React
+# 1.1.Why React
 
 - React helps us with a problem we'll ecounter with normal in JavScript, the UI state becomes difficult to manage.
 - In Bigger JavaScript applications, you have to manually target elememts in your DOM and if you then change the structure of your HTML code, changes are you will need to change the way you targetted your elements because you used query selector.
@@ -19,11 +19,11 @@
 - It is highly-efficient and fast.
 - React features a huge ecosystem and an extremely-active community which means that there is a great chance that for a given problem you face.
 
-# React Alternatives
+# 1.2.React Alternatives
 
 - Angular and Vue.
 
-# Two Kinds of Applications
+# 1.3.Two Kinds of Applications
 
 - Single Page Applications
 
@@ -32,7 +32,7 @@
 - The entire page is also managed by a root react component which is execlusively under React's control.
 - Example: Gmail, Google Maps, Trello, Facebook or GitHub.
 
-# Pros of the Single-Page Application
+# 1.3.1.Pros of the Single-Page Application
 
 - Fast and responsive
 
@@ -50,7 +50,7 @@ SPAs provide users with a simple linear experience. These web apps – like Sauc
 
 It’s easy to debug an SPA with Chrome since such apps are developed on frameworks like AngularJS Batarang and React developer tools. These frameworks have their own Chrome developer tools that make debugging much easier than with MPAs. In addition, SPAs allow you to monitor network operations and investigate page elements and data associated with them.
 
-# Cons of the Single-Page Application
+# 1.3.2.Cons of the Single-Page Application
 
 - SEO optimization
 
@@ -72,7 +72,7 @@ One security issue is the exposure of sensitive data. If developers aren’t car
 
 One more reason that SPAs can be insecure is missing access control at the functional level. Since developers move features and logic off the server and out to the client, it’s really easy to provide a client with access to functions that they shouldn’t be permitted to use.
 
-# When to use an SPA
+# 1.3.3.When to use an SPA
 
 - Single-page web applications fit perfectly for building dynamic platforms with small data volumes. 
 - Furthermore, a single-page app is ideal as a base for future mobile app development. 
@@ -89,7 +89,7 @@ One more reason that SPAs can be insecure is missing access control at the funct
 - So, the entire page is not under React's control.
 - Example: ebay and Amazon
 
-# Pros of the Multiple-Page Application
+# 1.3.4.Pros of the Multiple-Page Application
 
 - SEO
 
@@ -103,7 +103,7 @@ MPAs allow you to create new content and place it on new pages. Multi-page apps 
 
 MPAs can provide lots of analytics with valuable information on how a website is performing: which features are working and which aren’t. With a single-page app, the only useful information you can collect is who visitors are and for how long they stay on the site.
 
-# Cons of the multiple-page application
+# 1.3.5.Cons of the multiple-page application
 
 - Slow speed and performance
 
@@ -117,13 +117,13 @@ Compared to SPAs, MPAs take longer to develop. In most cases, developers have to
 
 Maintaining and updating multiple pages can be a chore, and things only get worse the larger a website becomes. In addition, maintaining security may be problematic because developers need to secure each separate page. Single-page apps allow developers to just secure data endpoints.
 
-# When to use an MPA
+# 1.3.6.When to use an MPA
 - A multi-page application is appropriate for large companies with a broad range of products or services that require lots of features and multiple menus. 
 - An MPA is more suitable for online stores, business sites, catalogs, and marketplaces. 
 - Companies running these sites probably also have diverse user bases. 
 - To put it simply, if you have a lot of content and features to include on your website or if you are reselling multiple products and services, then an MPA would be a good choice.
 
-# Outline
+# 1.4.Outline
 
 - Getting Started 
 - The Basics
@@ -139,7 +139,7 @@ Maintaining and updating multiple pages can be a chore, and things only get wors
 - Deployment
 - Animation, Next Steps and webpack
 
-# Sample Application
+# 1.5.Sample Application
 
 - Visit, https://codepen.io/
 - Settings -> Search react, react-dom and JavaScript Preprocessor -> Babel
