@@ -241,3 +241,55 @@ export default App;
 - Lets you perform side effects in function components — useEffect.
 - Accepts a context object (the value returned from React.createContext) and returns the current context value, as given by the nearest context provider for the given context — useContext.
 
+# Rules of Hooks
+
+- Don’t call Hooks inside loops, conditions, or nested functions — Only call Hooks at the top level.
+- Don’t call Hooks from regular JavaScript functions — Only call Hooks from React function components.
+
+```ruby
+import React, { useState } from 'react';
+import './App.css';
+import Person from './Person/Person.js'
+
+const app = props => {
+
+  const [personState, setPersonState] = useState({
+      persons: [
+        {name: 'Gauthy', age: 22},
+        {name: 'Gowthy', age: 24},
+        {name: 'Gowtham', age: 26}
+      ],
+      otherState: 'some other values'
+    }
+  );
+
+  const [otherState, setOtherState] = useState('some other values');
+  console.log(personState, otherState)
+
+  const SwitchNameHandler = () => {
+    // Don't do like this -> this.state.persons[0].name = 'Ram';
+    setPersonState({persons: [
+      {name: 'Ram', age: 22},
+      {name: 'Gowthy', age: 24},
+      {name: 'Gowtham', age: 26}
+    ],
+    otherState: personState.otherState
+  })
+  }
+
+    return (
+      <div className="App">
+       <h1>Hello World</h1>
+       <p>This is Working!!!</p>
+       <button onClick={SwitchNameHandler}>Switch Name</button>
+       <Person name={personState.persons[0].name} age = {personState.persons[0].age}/>
+       <Person name={personState.persons[1].name}>My Hobbies: Coding</Person>
+       <Person name={personState.persons[2].name}/>
+      </div>
+    );
+  }
+
+
+export default app;
+```
+
