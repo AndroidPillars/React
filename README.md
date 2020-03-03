@@ -1,8 +1,7 @@
 # Contents
 
 __CHAPTER-1__  
-
-    1.0.React  
+    [1.0.React](CHAPTER-1.md#1.0.React)
     1.1.Why React  
     1.2.React Alternatives    
     1.3.Two Kinds of Applications    
