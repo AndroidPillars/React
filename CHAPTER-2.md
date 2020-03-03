@@ -300,6 +300,73 @@ const doubleNumArray = numbers.map((num) => {
 console.log(numbers);
 console.log(doubleNumArray);
 ```
+# Destructuring
+
+- Destructuring allows you to easily extract array elements or object properties and store them in variables.
+- In Spread -> It takes out all elements all properties and distribute them in a new array or object or wherever we are using it.
+- Destructuring allows you to pull out single elements or properties and store them in variables for arrays and Objects.
+- For Array Destructuring
+```ruby
+[a,b] = ['Hello','Android']
+console.log(a)
+console.log(b)
+```
+- For Object Destructuring
+```ruby
+{name}={name:'Android',age:20}
+console.log(name)
+console.log(age)
+```
+```ruby
+const numbers = [1,2,3];
+[num1,num2] = numbers;
+
+console.log(num1,num2);
+```
+
+# Reference and Primitive Type Refresher
+```ruby
+const number = 1;
+const number2 = number;
+
+console.log(number)
+```
+- The number2 has been copied from number
+- So numbers, Strings, booleans, these are called primitive types because whenever you reassign or you store a variable in other variable. It will copy the value, objects and arrays are reference types.
+```ruby
+const person = {
+  name: 'Android'
+}
+
+const secondPerson = person;
+console.log(secondPerson)
+
+
+const person = {
+  name: 'Android'
+};
+
+const secondPerson = {
+  ...person
+};
+
+person.name = 'Flutter'
+
+console.log(secondPerson)
+```
+
+# Refreshing Array Functions
+
+```ruby
+const numbers = [1, 2, 3];
+
+const doubleNumArray = numbers.map((num) => {
+  return num * 2;
+});
+
+console.log(numbers);
+console.log(doubleNumArray);
+```
 
 # Tools References
 
