@@ -1,6 +1,6 @@
 # Contents
 
-__CHAPTER-1__  
+## CHAPTER-1  
     ‎  
     [1.0.React](CHAPTER-1.md#1.0.React)    
     [1.1.Why React](CHAPTER-1.md#11why-react)    
