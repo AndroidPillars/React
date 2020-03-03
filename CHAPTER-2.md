@@ -1,5 +1,5 @@
 
-# Next Generation JavaScript
+# 2.1. Next Generation JavaScript
 
 # let and const
 
