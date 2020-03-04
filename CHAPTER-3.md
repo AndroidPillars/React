@@ -292,7 +292,7 @@ const app = props => {
 
 export default app;
 ```
-# Stateless vs Stateful components
+# 3.14. Stateless vs Stateful components
 
 - Stateful component is a component that manage state, no matter if it's using the useState hook or a class-based approach with the state property.
 - A component is like the person.js so this person component is a stateless component because it has no internal state management.
@@ -370,7 +370,7 @@ const person = (props) => {
 export default person;
 ```
 
-# Binding functions
+# 3.15. Binding functions
 
 - Bounded function in JavaScript is a function that is bounded to a given context. 
 - That means no matter how you call it, the context of the call will stay the same. 
@@ -449,7 +449,7 @@ const person = (props) => {
 
 export default person;
 ```
-# Adding Two Way Binding
+# 3.16. Adding Two Way Binding
 
 In App.js
 
@@ -534,7 +534,7 @@ const person = (props) => {
 
 export default person;
 ```
-# Adding Styling with Stylesheets
+# 3.17. Adding Styling with Stylesheets
 
 - Create Person.css file
 
@@ -567,7 +567,7 @@ const person = (props) => {
 
 export default person;
 ```
-# Working with Inline Styles
+# 3.18. Working with Inline Styles
 
 - In App.js
 
