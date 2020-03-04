@@ -1,4 +1,4 @@
-# Using a Build Workflow
+# 3.1. Using a Build Workflow
 
 Recommended for SPAs and MPAs
 
@@ -11,7 +11,7 @@ Recommended for SPAs and MPAs
 - Use Compiler(Next-Gen JavaScript) Babel + Presets
 - Use a Development Server.
 
-# Create React App
+# 3.2. Create React App
 
 - Visit, https://github.com/facebook/create-react-app
 - Install Node -> https://nodejs.org/en/download/
@@ -20,7 +20,7 @@ Recommended for SPAs and MPAs
 - Project path -> Cmd Prompt -> npm start
 - ctrl+c -> Close
 
-# Understanding JSX
+# 3.3. Understanding JSX
 
 - JSX stands for JavaScript XML. With React, it's an extension for XML-like code for elements and components.
 - In Other words, JavaScript extension, or more commonly JSX, is a React extension that allows us to write JavaScript that looks like HTML.
@@ -44,7 +44,7 @@ class App extends Component {
 
 export default App;
 
-# Components
+# 3.4 Components
 
 - A Component is one of the core building blocks of React. 
 - In other words, we can say that every application you will develop in React will be made up of pieces called components. 
@@ -52,7 +52,7 @@ export default App;
 - You can see a UI broken down into multiple individual pieces called components and work on them independently and merge them all in a parent component which will be your final UI.
 - In React we mainly have two types of components(i.e) Functional Components, Class Components.
 
-# Functional Components
+# 3.5. Functional Components
 
 - Functional components are simply javascript functions. 
 - We can create a functional component in React by writing a javascript function. 
@@ -65,7 +65,7 @@ function Democomponent()
 }
 ```
 
-# Class Components
+# 3.6. Class Components
 
 - The class components are little more complex than the functional components. 
 - The functional components are not aware about the other components in your program where as the class components can work with each other. 
@@ -81,7 +81,7 @@ class Democomponent extends React.Component
 }
 ```
 
-# Rendering Components
+# 3.7. Rendering Components
 
 - React is also capable of rendering user-defined components. 
 - To render a component in React we can initialize an element with a user-defined component and pass this element as the first parameter to ReactDOM.render() or directly pass the component as first argument to the ReactDOM.render() method.
@@ -95,7 +95,7 @@ const elementName = <ComponentName />;
 - Note: The name of a component should always start with a capital letter.
 - This is done to differentiate a component tag with html tags.
 
-# Sample
+# 3.8. Sample
 
 In App.js
 
@@ -131,7 +131,7 @@ const person = () => {
 
 export default person;
 ``` 
-# Working with Props
+# 3.9. Working with Props
 
 - Props are arguments passed into React components.
 - Props are passed to components via HTML attributes.
@@ -179,7 +179,7 @@ const person = (props) => {
 export default person;
 ```
 
-# Using State
+# 3.10. Using State
 
 - React components has a built-in state object.
 - The state object is where you store property values that belongs to the component.
@@ -226,7 +226,7 @@ class App extends Component {
 
 export default App;
 ```
-# Using the useState() Hook for State Manipulation
+# 3.11. Using the useState() Hook for State Manipulation
 
 - In React 16.8, there also is a way for us to manage state in functional components with a feature called react hooks.
 - React Hooks are functions that let us hook into the React state and lifecycle features from function components.
@@ -235,13 +235,13 @@ export default App;
 - Hooks don’t work inside classes(because they let you use React without classes).
 - By using them, we can totally avoid using lifecycle methods, such as componentDidMount, componentDidUpdate, componentWillUnmount.
 
-# Basic Built-in Hooks
+# 3.12. Basic Built-in Hooks
 
 - Returns a stateful value and a function to update it — useState.
 - Lets you perform side effects in function components — useEffect.
 - Accepts a context object (the value returned from React.createContext) and returns the current context value, as given by the nearest context provider for the given context — useContext.
 
-# Rules of Hooks
+# 3.13. Rules of Hooks
 
 - Don’t call Hooks inside loops, conditions, or nested functions — Only call Hooks at the top level.
 - Don’t call Hooks from regular JavaScript functions — Only call Hooks from React function components.
