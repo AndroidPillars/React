@@ -1,7 +1,7 @@
 
 # 2.1. Next Generation JavaScript
 
-# 2.2.1. let and const
+# 2.1.1. let and const
 
 - Before ES6 the only variable used in JavaScript is var.
 ```ruby
@@ -26,7 +26,7 @@ let myName = 'Android';
 console.log(myName);
 ```
 
-# 2.2.2. Arrow Functions
+# 2.1.2. Arrow Functions
 
 ```ruby
 function myName(name){
@@ -77,7 +77,7 @@ const multiply = (number) => number*2;
 console.log(multiply(10));
 ```
 
-# 2.2.3. Exports and Imports(Modules)
+# 2.1.3. Exports and Imports(Modules)
 
 - In JavaScript files we can import statement from another file so that the JavaScript files themselves know their dependencies.
 - The default keyword uses when import some thing from that file it will always be our default export.
@@ -109,7 +109,7 @@ export const clean=()=>{...}
 export const baseDate = 10;
 ```
 
-# 2.2.4. Classes
+# 2.1.4. Classes
 
 - Classes are essentially blueprints for Objects.
 - A class is created using class keyword and class can have both properties and methods.
@@ -165,7 +165,7 @@ const person = new Person();
 person.myName();
 person.printGender();
 ```
-# 2.2.5. Classes, Properties and Methods
+# 2.1.5. Classes, Properties and Methods
 
 - Properties are like "variables attached to classes/ objects"
 
@@ -216,7 +216,7 @@ person.myName();
 person.printGender();
 ```
 
-# 2.2.6. The Spread and Rest Operator
+# 2.1.6. The Spread and Rest Operator
 
 - ... only three dots
 - Spread -> Used to split up array elements OR object properties.
@@ -256,7 +256,7 @@ const filter = (...args) => {
 
 console.log(filter(1,2,3))
 ```
-# 2.2.7. Reference and Primitive Type Refresher
+# 2.1.7. Reference and Primitive Type Refresher
 
 ```ruby
 const number = 1;
@@ -288,7 +288,7 @@ person.name = 'Flutter'
 console.log(secondPerson)
 ```
 
-# 2.2.8. Refreshing Array Functions
+# 2.1.8. Refreshing Array Functions
 
 ```ruby
 const numbers = [1, 2, 3];
@@ -300,7 +300,7 @@ const doubleNumArray = numbers.map((num) => {
 console.log(numbers);
 console.log(doubleNumArray);
 ```
-# 2.2.9. Destructuring
+# 2.1.9. Destructuring
 
 - Destructuring allows you to easily extract array elements or object properties and store them in variables.
 - In Spread -> It takes out all elements all properties and distribute them in a new array or object or wherever we are using it.
@@ -324,7 +324,7 @@ const numbers = [1,2,3];
 console.log(num1,num2);
 ```
 
-# 2.2.10. Reference and Primitive Type Refresher
+# 2.1.10. Reference and Primitive Type Refresher
 ```ruby
 const number = 1;
 const number2 = number;
@@ -355,7 +355,7 @@ person.name = 'Flutter'
 console.log(secondPerson)
 ```
 
-# 2.2.11. Refreshing Array Functions
+# 2.1.11. Refreshing Array Functions
 
 ```ruby
 const numbers = [1, 2, 3];
@@ -368,7 +368,7 @@ console.log(numbers);
 console.log(doubleNumArray);
 ```
 
-# 2.2.12. Tools References
+# 2.1.12. Tools References
 
 - https://jsbin.com/?html,output
 
