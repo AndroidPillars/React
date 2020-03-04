@@ -1,6 +1,6 @@
-# Working with Lists and Conditionals
+# 4.1. Working with Lists and Conditionals
 
-# Rendering Content Conditionally
+# 4.1.1. Rendering Content Conditionally
 
 In App.js
 ```ruby
@@ -122,7 +122,7 @@ const person = (props) => {
 export default person;
 ```
 
-# Handling Dynamic Content The JavaScript Way
+# 4.1.2 Handling Dynamic Content The JavaScript Way
 
 In App.js
 
@@ -220,7 +220,7 @@ class App extends Component {
 
 export default App;
 ```
-# Outputting Lists
+# 4.1.3. Outputting Lists
 
 ```ruby
 import React, { Component } from "react";
@@ -302,7 +302,7 @@ class App extends Component {
 
 export default App;
 ```
-# List and State with Delete
+# 4.1.4 List and State with Delete
 
 In App.js
 
@@ -386,7 +386,7 @@ class App extends Component {
 export default App;
 ```
 
-# Updating State Immutably
+# 4.1.5. Updating State Immutably
 
 In App.js
 
@@ -399,7 +399,7 @@ deletePersonHandler = (personIndex) => {
   };
 ```
 
-# Lists & Keys
+# 4.1.6. Lists & Keys
 
 In App.js
 
@@ -486,7 +486,7 @@ class App extends Component {
 export default App;
 ```
 
-# Flexible Lists
+# 4.1.7. Flexible Lists
 
 In App.js
 
