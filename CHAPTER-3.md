@@ -292,6 +292,84 @@ const app = props => {
 
 export default app;
 ```
+# Stateless vs Stateful components
+
+- Stateful component is a component that manage state, no matter if it's using the useState hook or a class-based approach with the state property.
+- A component is like the person.js so this person component is a stateless component because it has no internal state management.
+- It is a good practice to create as many of these stateless components, also called dumb, presentational components because they have no internal logic or presentational components.
+- The Stateful components, so either class-based with state or functional with useState are also called smart components or conatiner components because they contain the state of your application, of these components.
+
+# Passing Method References Between Components
+
+In App.js
+
+```ruby
+import React, { Component } from "react";
+import "./App.css";
+import Person from "./Person/Person.js";
+
+class App extends Component {
+  state = {
+    persons: [
+      { name: "Gauthy", age: 22 },
+      { name: "Gowthy", age: 24 },
+      { name: "Gowtham", age: 26 }
+    ]
+  };
+
+  SwitchNameHandler = () => {
+    // Don't do like this -> this.state.persons[0].name = 'Ram';
+    this.setState({
+      persons: [
+        { name: "Ram", age: 22 },
+        { name: "Gowthy", age: 24 },
+        { name: "Gowtham", age: 26 }
+      ]
+    });
+  };
+
+  render() {
+    return (
+      <div className="App">
+        <h1>Hello World</h1>
+        <p>This is Working!!!</p>
+        <button onClick={this.SwitchNameHandler}>Switch Name</button>
+        <Person
+          name={this.state.persons[0].name}
+          age={this.state.persons[0].age}
+        />
+        <Person
+          name={this.state.persons[1].name}
+          click={this.SwitchNameHandler}
+        >
+          My Hobbies: Coding
+        </Person>
+        <Person name={this.state.persons[2].name} />
+      </div>
+    );
+  }
+}
+
+export default App;
+```
+In Person.js
+
+```ruby
+import React from 'react'
+
+const person = (props) => {
+    return (
+        <div>
+            <p onClick = {props.click}>I am a {props.name} and I am { Math.floor( Math.random()*20 ) } years 		Old</p>
+            <p>{props.children}</p>
+        </div>
+    );
+    
+}
+
+export default person;
+```
+
 # Binding functions
 
 - Bounded function in JavaScript is a function that is bounded to a given context. 
