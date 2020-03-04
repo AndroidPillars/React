@@ -1,16 +1,16 @@
 ## CHAPTER-1
-   [1.0. React](CHAPTER-1.md#1.0.-React)    
-   [1.1. Why React](CHAPTER-1.md#11-why-react)    
-   [1.2. React Alternatives](CHAPTER-1.md#12-React-Alternatives)  
-   [1.3. Two Kinds of Applications](CHAPTER-1.md#13-Two-Kinds-of-Applications)  
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[1.3.1. Pros of the Single-Page Application](CHAPTER-1.md#131-pros-of-the-single-page-application)</pre>  
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[1.3.2. Cons of the Single-Page Application](CHAPTER-1.md#132-cons-of-the-single-page-application)</pre>  
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[1.3.3. When to use an SPA](CHAPTER-1.md#133-when-to-use-an-spa)</pre>  
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[1.3.4. Pros of the Multiple-Page Application](CHAPTER-1.md#134-pros-of-the-multiple-page-application)</pre>  
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[1.3.5. Cons of the Multiple-Page application](CHAPTER-1.md#135-cons-of-the-multiple-page-application)</pre>  
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[1.3.6. When to use an MPA](CHAPTER-1.md#136-when-to-use-an-mpa)</pre>   
-   [1.4. Outline](CHAPTER-1.md#14-outline)   
-   [1.5. Sample Application](CHAPTER-1.md#15-sample-application)   
+   [1.1. React](CHAPTER-1.md#11-react)    
+   [1.2. Why React](CHAPTER-1.md#12-why-react)    
+   [1.3. React Alternatives](CHAPTER-1.md#13-React-Alternatives)  
+   [1.4. Two Kinds of Applications](CHAPTER-1.md#14-Two-Kinds-of-Applications)  
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[1.4.1. Pros of the Single-Page Application](CHAPTER-1.md#141-pros-of-the-single-page-application)</pre>  
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[1.4.2. Cons of the Single-Page Application](CHAPTER-1.md#142-cons-of-the-single-page-application)</pre>  
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[1.4.3. When to use an SPA](CHAPTER-1.md#143-when-to-use-an-spa)</pre>  
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[1.4.4. Pros of the Multiple-Page Application](CHAPTER-1.md#144-pros-of-the-multiple-page-application)</pre>  
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[1.4.5. Cons of the Multiple-Page application](CHAPTER-1.md#145-cons-of-the-multiple-page-application)</pre>  
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[1.4.6. When to use an MPA](CHAPTER-1.md#146-when-to-use-an-mpa)</pre>   
+   [1.5. Outline](CHAPTER-1.md#15-outline)   
+   [1.6. Sample Application](CHAPTER-1.md#16-sample-application)   
    
 ## CHAPTER-2
    [2.1. Next Generation JavaScript](CHAPTER-2.md#21-next-generation-javascript)  
@@ -25,5 +25,20 @@
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2.1.9. Destructuring](CHAPTER-2.md#219-destructuring)</pre>  
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2.1.10. Reference and Primitive Type Refresher](CHAPTER-2.md#2110-reference-and-primitive-type-refresher)</pre>  
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2.1.11. Refreshing Array Functions](CHAPTER-2.md#2111-refreshing-array-functions)</pre>  
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2.1.12. Tools References](CHAPTER-2.md#2112-tools-references)</pre>   
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2.1.12. Tools References](CHAPTER-2.md#2112-tools-references)</pre>  
+   
+## CHAPTER-3
+   [3.1. Using a Build Workflow](CHAPTER-3.md#31-using-a-build-workflow)    
+   [3.2. Create React App](CHAPTER-3.md#32-create-react-app)  
+   [3.3. Understanding JSX](CHAPTER-3.md#33-understanding-jsx)  
+   [3.4 Components](CHAPTER-3.md#34-components)  
+   [3.5. Functional Components](CHAPTER-3.md#35-functional-components)  
+   [3.6. Class Components](CHAPTER-3.md#36-class-components)  
+   [3.7. Rendering Components](CHAPTER-3.md#37-rendering-components)  
+   [3.8. Sample](CHAPTER-3.md#38-sample)  
+   [3.9. Working with Props](CHAPTER-3.md#39-working-with-props)  
+   [3.10. Using State](CHAPTER-3.md#310-using-state)  
+   [3.11. Using the useState() Hook for State Manipulation](CHAPTER-3.md#311-using-the-usestate-hook-for-state-manipulation)  
+   [3.12. Basic Built-in Hooks](CHAPTER-3.md#312-basic-built-in-hooks)  
+   [3.13. Rules of Hooks](CHAPTER-3.md#313-rules-of-hooks)  
 
