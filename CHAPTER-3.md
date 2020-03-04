@@ -299,7 +299,7 @@ export default app;
 - It is a good practice to create as many of these stateless components, also called dumb, presentational components because they have no internal logic or presentational components.
 - The Stateful components, so either class-based with state or functional with useState are also called smart components or conatiner components because they contain the state of your application, of these components.
 
-# Passing Method References Between Components
+# 3.15. Passing Method References Between Components
 
 In App.js
 
@@ -370,7 +370,7 @@ const person = (props) => {
 export default person;
 ```
 
-# 3.15. Binding functions
+# 3.16. Binding functions
 
 - Bounded function in JavaScript is a function that is bounded to a given context. 
 - That means no matter how you call it, the context of the call will stay the same. 
@@ -449,7 +449,7 @@ const person = (props) => {
 
 export default person;
 ```
-# 3.16. Adding Two Way Binding
+# 3.17. Adding Two Way Binding
 
 In App.js
 
@@ -534,7 +534,7 @@ const person = (props) => {
 
 export default person;
 ```
-# 3.17. Adding Styling with Stylesheets
+# 3.18. Adding Styling with Stylesheets
 
 - Create Person.css file
 
@@ -567,7 +567,7 @@ const person = (props) => {
 
 export default person;
 ```
-# 3.18. Working with Inline Styles
+# 3.19. Working with Inline Styles
 
 - In App.js
 
