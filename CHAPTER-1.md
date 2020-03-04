@@ -1,12 +1,8 @@
 # 1.1. React
 
-- React is a JavaScript Library for building User Interfaces.
-- It is about building JavaScript-driven apps.
-- They don't run on the server.
-- React apps run in the browser and this gives us a great advantage. 
-- Things happen instantly since they happen in the user's browser.
-- We don't have to wait for a server response to get a new page or to render something new.
-- User Interfaces are bascially what the user sees and React is all about using components for building these.
+- React is a open-source frontend JavaScript library front-end JavaScript library developed by Facebook in 2011.
+- It follows the component based approach which helps in building reusable UI components.
+- It is used for developing complex and interactive web and mobile UI.
 
 # 1.2. Why React
 
