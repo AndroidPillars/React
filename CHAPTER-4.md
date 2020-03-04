@@ -2,6 +2,7 @@
 
 # Rendering Content Conditionally
 
+In App.js
 ```ruby
 import React, { Component } from "react";
 import "./App.css";
@@ -89,7 +90,7 @@ class App extends Component {
 
 export default App;
 ```
-- In Person.css file
+In Person.css file
 
 ```ruby
 .Person {
@@ -101,7 +102,7 @@ export default App;
     text-align: center;
 }
 ```
-- In Person.js
+In Person.js
 
 ```ruby
 import React from 'react'
