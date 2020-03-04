@@ -89,6 +89,38 @@ class App extends Component {
 
 export default App;
 ```
+- In Person.css file
+
+```ruby
+.Person {
+    width: 60%;
+    margin: 16px auto;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 3px #ccc;
+    padding: 16px;
+    text-align: center;
+}
+```
+- In Person.js
+
+```ruby
+import React from 'react'
+import './Person.css'
+
+const person = (props) => {
+    return (
+        <div className = 'Person'>
+            <p onClick = {props.click}>I am a {props.name} and I am { Math.floor( Math.random()*20 ) } years 		Old</p>
+            <p>{props.children}</p>
+            <input type ='text' onChange={props.changed} value={props.name}/>
+        </div>
+    );
+    
+}
+
+export default person;
+```
+
 # Handling Dynamic Content The JavaScript Way
 
 In App.js
