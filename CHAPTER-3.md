@@ -292,4 +292,168 @@ const app = props => {
 
 export default app;
 ```
+# Binding functions
+
+- Bounded function in JavaScript is a function that is bounded to a given context. 
+- That means no matter how you call it, the context of the call will stay the same. 
+- The only exception is the new operator which always return a new context.
+- To create a bounded function out of the regular function, the bind method is used. bind method take context to which you want to bind your function as a first argument. 
+- The rest of arguments are arguments that will be always passed to such function. It returns a bounded function as a result
+
+In App.js
+
+```ruby
+import React, { Component } from "react";
+import "./App.css";
+import Person from "./Person/Person.js";
+
+class App extends Component {
+  state = {
+    persons: [
+      { name: "Gauthy", age: 22 },
+      { name: "Gowthy", age: 24 },
+      { name: "Gowtham", age: 26 }
+    ]
+  };
+
+  SwitchNameHandler = (newName) => {
+    // Don't do like this -> this.state.persons[0].name = 'Ram';
+    this.setState({
+      persons: [
+        { name:  newName, age: 22 },
+        { name:  newName, age: 24 },
+        { name: "Gowtham", age: 26 }
+      ]
+    });
+  };
+
+  render() {
+    return (
+      <div className="App">
+        <h1>Hello World</h1>
+        <p>This is Working!!!</p>
+        <button onClick={this.SwitchNameHandler.bind(this, 'Android')}>Switch Name</button>
+          {/* Alternative way but not the efficient one */}
+          {/* <button onClick={() => this.SwitchNameHandler('Android')}>Switch Name</button> */}
+        <Person
+          name={this.state.persons[0].name}
+          age={this.state.persons[0].age}
+        />
+        <Person
+          name={this.state.persons[1].name}
+          click={this.SwitchNameHandler.bind(this, 'Flutter')}
+        >
+          My Hobbies: Coding
+        </Person>
+        <Person name={this.state.persons[2].name} />
+      </div>
+    );
+  }
+}
+
+export default App;
+
+```
+In Person.js
+
+```ruby
+import React from 'react'
+
+const person = (props) => {
+    return (
+        <div>
+            <p onClick = {props.click}>I am a {props.name} and I am { Math.floor( Math.random()*20 ) } years 		Old</p>
+            <p>{props.children}</p>
+        </div>
+    );
+    
+}
+
+export default person;
+```
+# Adding Two Way Binding
+
+In App.js
+
+```ruby
+import React, { Component } from "react";
+import "./App.css";
+import Person from "./Person/Person.js";
+
+class App extends Component {
+  state = {
+    persons: [
+      { name: "Gauthy", age: 22 },
+      { name: "Gowthy", age: 24 },
+      { name: "Gowtham", age: 26 }
+    ]
+  };
+
+  SwitchNameHandler = (newName) => {
+    // Don't do like this -> this.state.persons[0].name = 'Ram';
+    this.setState({
+      persons: [
+        { name:  newName, age: 22 },
+        { name:  newName, age: 24 },
+        { name: "Gowtham", age: 26 }
+      ]
+    });
+  };
+
+  nameChangedHandler = ( event ) => {
+    this.setState({
+      persons: [
+        { name:  'Android', age: 22 },
+        { name:  event.target.value, age: 24 },
+        { name: "Gowtham", age: 26 }
+      ]
+    });
+  }
+
+  render() {
+    return (
+      <div className="App">
+        <h1>Hello World</h1>
+        <p>This is Working!!!</p>
+        <button onClick={this.SwitchNameHandler.bind(this, 'Android')}>Switch Name</button>
+          {/* Alternative way but not the efficient one */}
+          {/* <button onClick={() => this.SwitchNameHandler('Android')}>Switch Name</button> */}
+        <Person
+          name={this.state.persons[0].name}
+          age={this.state.persons[0].age}
+        />
+        <Person
+          name={this.state.persons[1].name}
+          click={this.SwitchNameHandler.bind(this, 'Flutter')}
+          changed={this.nameChangedHandler}
+        >
+          My Hobbies: Coding
+        </Person>
+        <Person name={this.state.persons[2].name} />
+      </div>
+    );
+  }
+}
+
+export default App;
+
+```
+In Person.js
+
+```ruby
+import React from 'react'
+
+const person = (props) => {
+    return (
+        <div>
+            <p onClick = {props.click}>I am a {props.name} and I am { Math.floor( Math.random()*20 ) } years Old</p>
+            <p>{props.children}</p>
+            <input type ='text' onChange={props.changed} value={props.name}/>
+        </div>
+    );
+    
+}
+
+export default person;
+```
 
