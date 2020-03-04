@@ -122,7 +122,7 @@ const person = (props) => {
 export default person;
 ```
 
-# 4.1.2 Handling Dynamic Content The JavaScript Way
+# 4.1.2. Handling Dynamic Content The JavaScript Way
 
 In App.js
 
