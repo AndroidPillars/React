@@ -41,4 +41,10 @@
    [3.11. Using the useState() Hook for State Manipulation](CHAPTER-3.md#311-using-the-usestate-hook-for-state-manipulation)  
    [3.12. Basic Built-in Hooks](CHAPTER-3.md#312-basic-built-in-hooks)  
    [3.13. Rules of Hooks](CHAPTER-3.md#313-rules-of-hooks)  
+   [3.14. Stateless vs Stateful components](CHAPTER-3.md#314-stateless-vs-stateful-components)
+   [3.15. Passing Method References Between Components](CHAPTER-3.md#315-passing-method-references-between-components)
+   [3.16. Binding functions](CHAPTER-3.md#316-binding-functions)
+   [3.17. Adding Two Way Binding](CHAPTER-3.md#317-adding-two-way-binding)
+   [3.18. Adding Styling with Stylesheets](CHAPTER-3.md#318-adding-styling-with-stylesheets)
+   [3.19. Working with Inline Styles](CHAPTER-3.md#319-working-with-inline-styles)
 
