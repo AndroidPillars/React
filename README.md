@@ -11,6 +11,19 @@
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[1.3.6. When to use an MPA](CHAPTER-1.md#136-when-to-use-an-mpa)</pre>   
    [1.4. Outline](CHAPTER-1.md#14-outline)   
    [1.5. Sample Application](CHAPTER-1.md#15-sample-application)   
-    
-
+   
+## CHAPTER-2
+   [2.1. Next Generation JavaScript](CHAPTER-2.md#21-next-generation-javascript)  
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2.1.1. let and const](CHAPTER-2.md#211-let-and-const)</pre>  
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2.1.2. Arrow Functions](CHAPTER-2.md#212-arrow-functions)</pre>  
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2.1.3. Exports and Imports(Modules)](CHAPTER-2.md#213-exports-and-importsmodules)</pre>  
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2.1.4. Classes](CHAPTER-2.md#214-classes)</pre>  
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2.1.5. Classes, Properties and Methods](CHAPTER-2.md#215-classes-properties-and-methods)</pre>  
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2.1.6. The Spread and Rest Operator](CHAPTER-2.md#216-the-spread-and-rest-operator)</pre>  
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2.1.7. Reference and Primitive Type Refresher](CHAPTER-2.md#217-reference-and-primitive-type-refresher)</pre>  
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2.1.8. Refreshing Array Functions](CHAPTER-2.md#218-refreshing-array-functions)</pre>  
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2.1.9. Destructuring](CHAPTER-2.md#219-destructuring)</pre>  
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2.1.10. Reference and Primitive Type Refresher](CHAPTER-2.md#2110-reference-and-primitive-type-refresher)</pre>  
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2.1.11. Refreshing Array Functions](CHAPTER-2.md#2111-refreshing-array-functions)</pre>  
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2.1.12. Tools References](CHAPTER-2.md#2112-tools-references)</pre>   
 
