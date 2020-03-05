@@ -1,4 +1,4 @@
-# Stling React Components & Elements
+# Styling React Components & Elements
 
 # Setting Styles Dynamically
 
