@@ -24,7 +24,7 @@
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2.1.8. Refreshing Array Functions](CHAPTER-2.md#218-refreshing-array-functions)</pre>  
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2.1.9. Destructuring](CHAPTER-2.md#219-destructuring)</pre>  
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2.1.10. Reference and Primitive Type Refresher](CHAPTER-2.md#2110-reference-and-primitive-type-refresher)</pre>  
-   [2.1.11. Refreshing Array Functions](CHAPTER-2.md#2111-refreshing-array-functions)</pre>  
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2.1.11. Refreshing Array Functions](CHAPTER-2.md#2111-refreshing-array-functions)</pre>  
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2.1.12. Tools References](CHAPTER-2.md#2112-tools-references)</pre>  
    
 ## CHAPTER-3
