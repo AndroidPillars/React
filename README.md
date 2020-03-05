@@ -57,3 +57,10 @@
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[4.1.5. Updating State Immutably](CHAPTER-4.md#415-updating-state-immutably)   
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[4.1.6. Lists & Keys](CHAPTER-4.md#416-lists--keys)    
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[4.1.7. Flexible Lists](CHAPTER-4.md#417-flexible-lists)  
+   
+## CHAPTER-5
+   [5.1. Styling React Components & Elements](CHAPTER-5.md#51-styling-react-components--elements)  
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[5.1.1. Setting Styles Dynamically](CHAPTER-5.md#511-setting-styles-dynamically)</pre>  
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[5.1.2. Setting Class Names Dynamically](CHAPTER-5.md#512-setting-class-names-dynamically)</pre>  
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[5.1.3. Adding and Using Radium](CHAPTER-5.md#513-adding-and-using-radium)</pre>  
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[5.1.4. Using Radium for Media Queries](CHAPTER-5.md#514-using-radium-for-media-queries)</pre>  
