@@ -1,6 +1,6 @@
-# Styling React Components & Elements
+# 5.1. Styling React Components & Elements
 
-# Setting Styles Dynamically
+# 5.1.1. Setting Styles Dynamically
 
 In App.js
 
@@ -117,7 +117,7 @@ In App.css
 }
 ```
 
-# Setting Class Names Dynamically
+# 5.1.2. Setting Class Names Dynamically
 
 In App.js
 
@@ -226,7 +226,7 @@ class App extends Component {
 export default App;
 ```
 
-# Adding and Using Radium
+# 5.1.3. Adding and Using Radium
 
 - Open Terminal
 
@@ -374,4 +374,4 @@ const person = (props) => {
 export default Radium(person);
 ```
 
-# Using Radium for Media Queries
+# 5.1.4. Using Radium for Media Queries
