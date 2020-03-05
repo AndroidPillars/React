@@ -24,7 +24,7 @@
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2.1.8. Refreshing Array Functions](CHAPTER-2.md#218-refreshing-array-functions)</pre>  
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2.1.9. Destructuring](CHAPTER-2.md#219-destructuring)</pre>  
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2.1.10. Reference and Primitive Type Refresher](CHAPTER-2.md#2110-reference-and-primitive-type-refresher)</pre>  
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2.1.11. Refreshing Array Functions](CHAPTER-2.md#2111-refreshing-array-functions)</pre>  
+   c[2.1.11. Refreshing Array Functions](CHAPTER-2.md#2111-refreshing-array-functions)</pre>  
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2.1.12. Tools References](CHAPTER-2.md#2112-tools-references)</pre>  
    
 ## CHAPTER-3
@@ -50,7 +50,10 @@
 
 ## CHAPTER-4
    [4.1. Working with Lists and Conditionals](CHAPTER-4.md#41-working-with-lists-and-conditionals)  
-   [4.1. Working with Lists and Conditionals](CHAPTER-4.md#41-working-with-lists-and-conditionals)  
-   [4.1. Working with Lists and Conditionals](CHAPTER-4.md#41-working-with-lists-and-conditionals)  
-   [4.1. Working with Lists and Conditionals](CHAPTER-4.md#41-working-with-lists-and-conditionals)  
-   [4.1. Working with Lists and Conditionals](CHAPTER-4.md#41-working-with-lists-and-conditionals)  
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[4.1.1. Rendering Content Conditionally](CHAPTER-4.md#411-rendering-content-conditionally)</pre>   
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[4.1.2. Handling Dynamic Content The JavaScript Way](CHAPTER-4.md#412-handling-dynamic-content-the-javascript-way)</pre>  
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[4.1.3. Outputting Lists](CHAPTER-4.md#413-outputting-lists)    
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[4.1.4. List and State with Delete](CHAPTER-4.md#414-list-and-state-with-delete)    
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[4.1.5. Updating State Immutably](CHAPTER-4.md#415-updating-state-immutably)   
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[4.1.6. Lists & Keys](CHAPTER-4.md#416-lists--keys)    
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[4.1.7. Flexible Lists](CHAPTER-4.md#417-flexible-lists)  
