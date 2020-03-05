@@ -492,9 +492,9 @@ class App extends Component {
 
 export default Radium(App);
 ```
-
 In Person.css
 
+```ruby
 .Person {
     width: 60%;
     margin: 16px auto;
@@ -509,6 +509,7 @@ In Person.css
         width: 450px;
     }
 } */
+```
 
 In Person.js
 
