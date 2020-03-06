@@ -1,10 +1,10 @@
-# Debugging React Apps
+# 6.1. Debugging React Apps
 
 - Chrome -> Extension -> React Developer Tools -> https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi/related
 
-# Using Error Boundaries(React 16+)
+# 6.2. Using Error Boundaries(React 16+)
 
-In App.js
+__In App.js__
 
 ```ruby
 import React, { Component } from "react";
@@ -105,7 +105,9 @@ class App extends Component {
 
 export default App;
 ```
-In Person.js
+
+__In Person.js__
+
 ```ruby
 import React, { Component } from "react";
 
@@ -205,7 +207,7 @@ class App extends Component {
 
 export default App;
 ```
-Create the folder ErrorBoundary -> with the
+__Create the folder ErrorBoundary -> with the file name ErrorBoundary.js__
 
 ```ruby
 import React, { Component } from "react";
