@@ -5,7 +5,6 @@ Recommended for SPAs and MPAs
 - Optimize code
 - Use Next-Gen JavaScript Features(ES6 vs ES5)
 - Be More Productive.
-
 - Use Dependency Management Tool npm or Yarn
 - Use Bundler -> Recommended: webpack
 - Use Compiler(Next-Gen JavaScript) Babel + Presets
