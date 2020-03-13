@@ -4,6 +4,9 @@
 
 # 6.2. Using Error Boundaries(React 16+)
 
+- Error boundaries are React components that catch JavaScript errors anywhere in their child component tree, and does something worth while with it like displaying a fallback interface instead of the component tree that crashed or logging the exact error. 
+- Error boundaries catch errors during rendering, in lifecycle methods, and in constructors of the whole tree below them, unmount the component tree while maintaining the usual workings and renderings of the rest of the React application.
+
 __In App.js__
 
 ```ruby
