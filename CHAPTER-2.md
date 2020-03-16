@@ -335,6 +335,12 @@ const numbers = [1,2,3];
 
 console.log(num1,num2);
 ```
+```ruby
+const numbers = [1,2,3];
+[num1, , num3] = numbers;
+
+console.log(num1, num3);
+```
 
 # 2.1.10. Reference and Primitive Type Refresher
 ```ruby
