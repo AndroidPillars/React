@@ -22,7 +22,7 @@ console.log(myName);
 ```
 - const -> constant values.
 ```ruby
-let myName = 'Android';
+const myName = 'Android';
 console.log(myName);
 ```
 
