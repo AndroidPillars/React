@@ -20,12 +20,11 @@
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2.1.4. Classes](CHAPTER-2.md#214-classes)</pre>  
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2.1.5. Classes, Properties and Methods](CHAPTER-2.md#215-classes-properties-and-methods)</pre>  
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2.1.6. The Spread and Rest Operator](CHAPTER-2.md#216-the-spread-and-rest-operator)</pre>  
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2.1.7. Reference and Primitive Type Refresher](CHAPTER-2.md#217-reference-and-primitive-type-refresher)</pre>  
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2.1.8. Refreshing Array Functions](CHAPTER-2.md#218-refreshing-array-functions)</pre>  
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2.1.9. Destructuring](CHAPTER-2.md#219-destructuring)</pre>  
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2.1.10. Reference and Primitive Type Refresher](CHAPTER-2.md#2110-reference-and-primitive-type-refresher)</pre>  
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2.1.11. Refreshing Array Functions](CHAPTER-2.md#2111-refreshing-array-functions)</pre>  
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2.1.12. Tools References](CHAPTER-2.md#2112-tools-references)</pre>  
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2.1.7. Reference and Primitive Type Refresher](CHAPTER-2.md#217-reference-and-primitive-type-refresher)</pre>   
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2.1.8. Destructuring](CHAPTER-2.md#218-destructuring)</pre>  
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2.1.9. Reference and Primitive Type Refresher](CHAPTER-2.md#219-reference-and-primitive-type-refresher)</pre>  
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2.1.10. Refreshing Array Functions](CHAPTER-2.md#2110-refreshing-array-functions)</pre>  
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2.1.11. Tools References](CHAPTER-2.md#2111-tools-references)</pre>  
    
 ## CHAPTER-3
    [3.1. Using a Build Workflow](CHAPTER-3.md#31-using-a-build-workflow)    
