@@ -95,7 +95,9 @@ import {smth} from './utility.js'
 import {smth as Smth} from './utility.js'
 import * as bundled from './utility.js'
 ```
-where person.js,
+__For Example,__
+
+In person.js,
 ```ruby
 const person= {
   name:'Android'
@@ -103,10 +105,20 @@ const person= {
 
 export default person
 ```
-where utility.js,
+In utility.js,
 ```ruby
 export const clean=()=>{...}
 export const baseDate = 10;
+```
+
+In app.js,
+
+```ruby
+import person from './person.js'
+import prs from './person.js'
+
+import { baseData } from './utility.js'
+import { clean } from './utility.js'
 ```
 
 # 2.1.4. Classes
