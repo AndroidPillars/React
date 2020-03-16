@@ -300,19 +300,7 @@ person.name = 'Flutter'
 console.log(secondPerson)
 ```
 
-# 2.1.8. Refreshing Array Functions
-
-```ruby
-const numbers = [1, 2, 3];
-
-const doubleNumArray = numbers.map((num) => {
-  return num * 2;
-});
-
-console.log(numbers);
-console.log(doubleNumArray);
-```
-# 2.1.9. Destructuring
+# 2.1.8. Destructuring
 
 - Destructuring allows you to easily extract array elements or object properties and store them in variables.
 - In Spread -> It takes out all elements all properties and distribute them in a new array or object or wherever we are using it.
@@ -342,7 +330,7 @@ const numbers = [1,2,3];
 console.log(num1, num3);
 ```
 
-# 2.1.10. Reference and Primitive Type Refresher
+# 2.1.9. Reference and Primitive Type Refresher
 ```ruby
 const number = 1;
 const number2 = number;
@@ -373,7 +361,7 @@ person.name = 'Flutter'
 console.log(secondPerson)
 ```
 
-# 2.1.11. Refreshing Array Functions
+# 2.1.10. Refreshing Array Functions
 
 ```ruby
 const numbers = [1, 2, 3];
@@ -386,7 +374,7 @@ console.log(numbers);
 console.log(doubleNumArray);
 ```
 
-# 2.1.12. Tools References
+# 2.1.11. Tools References
 
 - https://jsbin.com/?html,output
 
