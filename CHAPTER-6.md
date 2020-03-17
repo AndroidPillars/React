@@ -1,5 +1,8 @@
 # 6.1. Debugging React Apps
 
+- Debugging allows you to easily find sources of errors in your code, but also teaches you about the inner working of the language thus preventing you from making the same error in the future.
+- By Using browser’s developer tools -> pressing F12 or right clicking and selecting “Inspect” -> See the errors in “Console”.
+- By Using chrome developer tools -> By Clicking “>>” -> Sources ->
 - Chrome -> Extension -> React Developer Tools -> https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi/related
 
 # 6.2. Using Error Boundaries(React 16+)
