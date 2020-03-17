@@ -4,7 +4,7 @@
 - By Using browser’s developer tools -> pressing F12 or right clicking and selecting “Inspect” -> See the errors in “Console”.
 - By Using chrome developer tools -> By Clicking “>>” -> Sources -> Page -> top -> localhost:3000 -> static/js -> project path -> src ->
 where you can find the source -> By placing the debug point we can find the error by checking the code line by line.
-- Chrome -> Extension -> React Developer Tools -> https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi/related
+- By Using React Developer Tools(i.e) Chrome -> Extension -> React Developer Tools -> https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi/related -> By Clicking “>>” -> you will find “Components” and “Profiler”.
 
 # 6.2. Using Error Boundaries(React 16+)
 
