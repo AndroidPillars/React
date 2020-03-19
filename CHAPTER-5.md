@@ -2,7 +2,7 @@
 
 # 5.1.1. Setting Styles Dynamically
 
-In App.js
+__In App.js__
 
 ```ruby
 import React, { Component } from "react";
@@ -101,7 +101,7 @@ class App extends Component {
 
 export default App;
 ```
-In App.css
+__In App.css__
 
 ```ruby
 .App {
@@ -119,7 +119,7 @@ In App.css
 
 # 5.1.2. Setting Class Names Dynamically
 
-In App.js
+__In App.js__
 
 ```ruby
 import React, { Component } from "react";
