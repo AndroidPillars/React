@@ -1148,11 +1148,12 @@ In App.css
 
 # CSS Modules and Media Queries
 
-In Person.js
+__In Person.js__
 
 ```ruby
 import React from "react";
-import classes from"./Person.css"; // If we are using ReactScripts 2.X or higher we need to use ./Person.module.css and rename file name also
+import classes from"./Person.css"; 
+// If we are using ReactScripts 2.X or higher we need to use ./Person.module.css and rename file name also
 
 
 const person = props => {
@@ -1170,7 +1171,7 @@ const person = props => {
 export default person;
 
 ```
-In Person.css
+__In Person.css__
 
 ```ruby
  .Person {
