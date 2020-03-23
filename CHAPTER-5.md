@@ -849,10 +849,19 @@ options: {
      localIdentName: '[name]__[local]__[hash:base64:5]'
     },
 ```
-where, 
+__where,__
 modules: true -> This enables the CSS module Features and localIdentName -> This will used by this features to dynamically generate unique CSS class names at the end.
 
-- Similary -> webpack.config.prod.js also
+- Similary -> webpack.config.prod.js also,
+```ruby
+options: {
+     importLoaders: 1,
+     minimize: true,
+     sourceMap: shouldUseSourceMap,
+     modules: true,
+     localIdentName: '[name]__[local]__[hash:base64:5]'
+     },
+```                      
 
 If you get Error,
 
