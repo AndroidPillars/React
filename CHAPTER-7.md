@@ -9,4 +9,8 @@
 # Component Tree
 
 
-# Setting up the projet
+# Setting up the project
+
+- [Create the Project](CHAPTER-3.md#32-create-react-app) 
+
+
