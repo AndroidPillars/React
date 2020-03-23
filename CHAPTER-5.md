@@ -863,7 +863,13 @@ options: {
      modules: true,
      localIdentName: '[name]__[local]__[hash:base64:5]'
      },
-```                      
+```  
+
+Now, In Terminal -> Run
+
+```ruby
+npm start
+```
 
 If you get Error,
 
