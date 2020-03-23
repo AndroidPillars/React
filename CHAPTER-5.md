@@ -721,7 +721,7 @@ In Person.css
 }
 ```
 
-# 5.1.6 Styled Components and Dynamic Styles
+# 5.1.6. Styled Components and Dynamic Styles
 
 In App.js
 
@@ -834,7 +834,7 @@ class App extends Component {
 
 export default App;
 ```
-# Working with CSS Modules
+# 5.1.7. Working with CSS Modules
 
 -  Open CmdPrompt
 ```ruby
@@ -1163,7 +1163,7 @@ In App.css
 }
 ```
 
-# 5.1.7. CSS Modules and Media Queries
+# 5.1.8. CSS Modules and Media Queries
 
 __In Person.js__
 
