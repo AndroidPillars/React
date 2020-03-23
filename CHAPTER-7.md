@@ -21,6 +21,6 @@
 
 ```ruby
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
-<title>Burger App</title>
+<title>Demo App</title>
 
 
