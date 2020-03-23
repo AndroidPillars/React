@@ -840,7 +840,7 @@ export default App;
 ```ruby
 npm run eject
 ```
-- Open cofig folder in project module -> webpack.config.dev.js -> Find test: /\.css$/ -> Options -> Add the below lines
+- Open cofig folder in project module -> webpack.config.dev.js -> Find 'css-loader' -> Options -> Add the below lines
 
 ```ruby
 options: {
@@ -850,9 +850,11 @@ options: {
     },
 ```
 __where,__
+
 modules: true -> This enables the CSS module Features and localIdentName -> This will used by this features to dynamically generate unique CSS class names at the end.
 
-- Similary -> webpack.config.prod.js also,
+- Similary -> webpack.config.prod.js -> Find 'css-loader' -> Options -> Add the below lines
+
 ```ruby
 options: {
      importLoaders: 1,
