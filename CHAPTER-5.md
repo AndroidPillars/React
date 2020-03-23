@@ -851,7 +851,7 @@ options: {
 ```
 __where,__
 
-modules: true -> This enables the CSS module Features and localIdentName -> This will used by this features to dynamically generate unique CSS class names at the end.
+__modules: true__ -> This enables the CSS module Features and localIdentName -> This will used by this features to dynamically generate unique CSS class names at the end.
 
 - Similary -> webpack.config.prod.js -> Find 'css-loader' -> Options -> Add the below lines
 
