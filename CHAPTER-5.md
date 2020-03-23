@@ -540,7 +540,7 @@ const person = (props) => {
 export default Radium(person);
 ```
 
-# Introducing Styled Components
+# 5.1.5. Introducing Styled Components
 
 - Visit https://styled-components.com/
 - Open CmdPrompt -> For installing the plugin
@@ -721,7 +721,7 @@ In Person.css
 }
 ```
 
-# Styled Components and Dynamic Styles
+# 5.1.6 Styled Components and Dynamic Styles
 
 In App.js
 
@@ -1163,7 +1163,7 @@ In App.css
 }
 ```
 
-# CSS Modules and Media Queries
+# 5.1.7. CSS Modules and Media Queries
 
 __In Person.js__
 
